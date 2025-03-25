@@ -1,4 +1,4 @@
-# Project Name
+# Classroom Projects Basic
 
 ## Introduction
 

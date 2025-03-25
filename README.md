@@ -57,10 +57,29 @@ To use the classes and methods in this repository, follow these steps:
 2. Navigate to the appropriate directory containing the Java files.
 3. Use the classes as you would in any Java application.
 
-For example, to use the `Calculator` class, create an instance and call its methods:
+## Branches
+This project uses different branches for better version control and feature management:
 
-```java
-Calculator calculator = new Calculator();
-int result = calculator.add(2, 3);
-System.out.println("Result: " + result);
+- main: The main branch contains the stable and finished version of the project.
+
+- work: The work branch contains the latest changes and experimental features.
+
+## How to switch branches:
+
+To switch from one branch to another:
+
+```bash
+git checkout <branch-name>
+```
+
+    
+### Commit History
+Each branch has its own set of commits that document changes. You can view the commit history with:
+
+```bash
+git log
+```
+
+## Contributing
+If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your changes. Be sure to explain your changes clearly in the commit messages.
 
